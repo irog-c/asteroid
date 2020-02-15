@@ -1,10 +1,8 @@
 #include <stdlib.h>
 #include <wchar.h>
 #include <string.h>
-#include <WinSock2.h>
 #include <stdio.h>
 #pragma warning(disable:4996)
-int (WINAPIV * __vsnprintf)(char *, size_t, const char*, va_list) = _vsnprintf;
 #include "consoleEngine.h"
 
 struct console_t
