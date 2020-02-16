@@ -32,7 +32,7 @@ struct keystate_t mouse[5];
 
 static inline void _constructFontSheet(console_t console)
 {
-#if 0
+#if 1
 	char fontdata[] = "?Q`0001oOch0o01o@F40o0<AGD4090LAGD<090@A7ch0?00O7Q`0600>00000000" \
 		"O000000nOT0063Qo4d8>?7a14Gno94AA4gno94AaOT0>o3`oO400o7QN00000400" \
 		"Of80001oOg<7O7moBGT7O7lABET024@aBEd714AiOdl717a_=TH013Q>00000000" \

@@ -210,8 +210,8 @@ int main(void)
 
 	int64_t curr_time = ConsoleEngine_get_time_ms();
 	int64_t last_time = ConsoleEngine_get_time_ms();
-	float timePassed = 0.0f; // Total elapsed time
-	float elapsedTime; // Delta time
+	float timePassed = 0.0f;
+	float elapsedTime;
 	float fps = 0.0f;
 
 	bool player_dead = false;
