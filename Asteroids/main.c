@@ -317,6 +317,5 @@ int main(void)
 	}
 
 	ConsoleEngine_free(con);
-
 	return 0;
 }
